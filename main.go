@@ -1,12 +1,11 @@
 package main
 
 import (
-	"codewars/6-kuy/walk"
+	twosum "codewars/6-kuy/twoSum"
 	"fmt"
 )
 
 func main() {
-	w := walk.IsValidWalk([]rune{'s', 'w', 'w', 's', 'e', 's', 's', 'w', 'e', 'w'})
-	alW := walk.AlternativeWalk([]rune{'s', 'w', 'w', 's', 'e', 's', 's', 'w', 'e', 'w'})
-	fmt.Println(w, alW)
+	r := twosum.TwoSum([]int{1234, 5678, 9012}, 14690)
+	fmt.Println(r)
 }
